@@ -17,7 +17,7 @@ source_doc = st.file_uploader("Upload Source Document", type="pdf")
 if st.button("Summarize"):
     # Validate inputs
     if not openai_api_key.strip() or not source_doc:
-        st.write(f"Please provide the missing fields.")
+        st.error(f"Please provide the missing fields.")
     else:
         try:
             # Save uploaded file temporarily to disk, load and split the file into pages, delete temp file
@@ -37,6 +37,6 @@ if st.button("Summarize"):
             search = vectordb.similarity_search(" ")
             summary = chain.run(input_documents=search, question="Write a summary within 150 words.")
             
-            st.write(summary)
+            st.success(summary)
         except Exception as e:
-            st.write(f"An error occurred: {e}")
+            st.error(f"An error occurred: {e}")
