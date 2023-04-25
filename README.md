@@ -1,7 +1,7 @@
 # langchain-doc-summarizer
 A sample Streamlit web application for summarizing documents using LangChain and Chroma.
 
-<img src="./langchain-doc-summarizer.png" alt="langchain-doc-summarizer" height="300"/>
+<img src="./langchain-doc-summarizer.png" alt="langchain-doc-summarizer" height="260"/>
 
 For a detailed guide, see [this](https://alphasec.io/summarize-documents-with-langchain-and-chroma/) post. To deploy on [Railway](https://railway.app/?referralCode=alphasec) using a one-click template, click the button below.
 
