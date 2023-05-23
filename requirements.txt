@@ -1,6 +1,6 @@
 langchain==0.0.143
 streamlit==1.20.0
-openai==0.27.4
+openai==0.27.7
 tiktoken==0.3.1
 chromadb==0.3.21
 pypdf==3.8.0
