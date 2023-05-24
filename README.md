@@ -1,4 +1,6 @@
 # langchain-doc-summarizer
+*Note: This repo has been archived; the code is now being maintained at [langchain-examples](https://github.com/alphasecio/langchain-examples/chroma-summary).*
+
 A sample Streamlit web application for summarizing documents using LangChain and Chroma.
 
 <img src="./langchain-doc-summarizer.png" alt="langchain-doc-summarizer" height="260"/>
